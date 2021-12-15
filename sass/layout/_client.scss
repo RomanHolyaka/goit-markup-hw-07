@@ -1,0 +1,32 @@
+.client-list {
+  display: flex;
+  align-items: center;
+}
+.client-item {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.client-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: var(--grey-muddy-color);
+  fill: currentColor;
+
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--blue-light-color);
+    border: 1px solid #2196f3;
+  }
+}
