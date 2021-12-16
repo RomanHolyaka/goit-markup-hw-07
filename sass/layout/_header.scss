@@ -4,39 +4,34 @@
   border-bottom: var(--grey-middle-color);
 }
 
-.header-item {
+.header-list__item {
   margin-right: 50px;
   &:last-child {
     margin-right: 0px;
   }
 }
 
-.colortext-web {
+.header__colortext-web {
   color: var(--blue-light-color);
 }
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
-.header-list {
-  display: flex;
-  align-items: center;
-}
+.header__navigation,
+.header-list,
 .header-container {
   display: flex;
   align-items: center;
 }
-.header-tel-mail {
+
+.header__tel-mail {
   margin-left: auto;
 }
 
-.header-icon {
+.header-list__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-mail,
-.header-tel {
+.header-list__mail,
+.header-list__tel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +51,7 @@
   }
 }
 
-.header-link {
+.header-list__link {
   position: relative;
   display: inline-block;
   padding-top: 32px;

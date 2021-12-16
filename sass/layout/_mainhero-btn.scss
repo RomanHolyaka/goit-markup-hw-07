@@ -4,14 +4,14 @@
   align-items: center;
   margin-bottom: 50px;
 }
-.mainhero-item {
+.mainhero-listbtn__item {
   margin-right: 8px;
   &:last-child {
     margin-right: 0px;
   }
 }
 
-.mainhero-btn {
+.mainhero-listbtn__btn {
   display: inline-block;
   padding: 6px 22px;
   font-family: "Roboto", sans-serif;

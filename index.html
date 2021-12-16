@@ -18,24 +18,24 @@
     
     <header class="header">
      <div class="container header-container">
-       <nav class="header-navigation">
-            <a class="header-logo link" href="/"><span class="colortext-web"> Web</span>Studio</a>
+       <nav class="header__navigation">
+            <a class="header__logo link" href="/"><span class="header__colortext-web"> Web</span>Studio</a>
             <ul class="header-list list">
-                <li class="header-item"><a href="./index.html" class="header-link link current">Студия</a></li>
-                <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
-                <li class="header-item"><a href="/" class="header-link link">Контакты</a></li>
+                <li class="header-list__item"><a href="./index.html" class="header-list__link link current">Студия</a></li>
+                <li class="header-list__item"><a href="./portfolio.html" class="header-list__link link">Портфолио</a></li>
+                <li class="header-list__item"><a href="/" class="header-list__link link">Контакты</a></li>
             </ul>
        </nav>
-        <div class="header-tel-mail"> 
+        <div class="header__tel-mail"> 
             <ul class="header-list list">
-                <li class="header-item">
-                    <a href="mailto:info@devstudio.com" class="header-mail link">
-                        <svg class="header-icon" width="16px" height="12px" >
-                            <use href="./images/sprite.svg#icon-envelope" class="envelop"></use>
+                <li class="header-list__item">
+                    <a href="mailto:info@devstudio.com" class="header-list__mail link">
+                        <svg class="header-list__icon" width="16px" height="12px" >
+                            <use href="./images/sprite.svg#icon-envelope"></use>
                         </svg> info@devstudio.com</a></li>
-                <li class="header-item">
-                    <a href="tel:+380961111111" class="header-tel link">
-                        <svg class="header-icon" width="10px" height="16px">
+                <li class="header-list__item">
+                    <a href="tel:+380961111111" class="header-list__tel link">
+                        <svg class="header-list__icon" width="10px" height="16px">
                             <use href="./images/sprite.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a></li>
             </ul>
@@ -358,59 +358,59 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button  class="modal-exit" type="button" data-modal-close>
-                <svg class="modal-icon" width="18px" height="18px">
+            <button  class="modal__exit" type="button" data-modal-close>
+                <svg class="modal__icon" width="18px" height="18px">
                 <use href="./images/symbol-exit.svg#icon-close-black-18dp-2-1" ></use>
             </svg>
             </button>
-            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <p class="modal__form-title">Оставьте свои данные, мы вам перезвоним</p>
             <form class="js-form">
-                <div class="modal-js-form">
-                 <label class="label-form" for="name"> Имя </label>
+                <div class="js-form__modal">
+                 <label class="js-form__label" for="name"> Имя </label>
                     <div class="modal-form">
-                        <input class="modal-subscrip" type="text" name="name" id="name">
-                        <svg class="icons-modal" width="18px" height="18px">
+                        <input class="modal-form__subscrip" type="text" name="name" id="name">
+                        <svg class="modal-form__icons" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>  
                     </div>
                 </div>
-                 <div class="modal-js-form">
-                    <label class="label-form" for="tel">Телефон</label>
+                 <div class="js-form__modal">
+                    <label class="js-form__label" for="tel">Телефон</label>
                        <div class="modal-form">
-                        <input class="modal-subscrip" type="tel" name="tel" id="tel">
-                            <svg class="icons-modal" width="18px" height="18px">
+                        <input class="modal-form__subscrip" type="tel" name="tel" id="tel">
+                            <svg class="modal-form__icons" width="18px" height="18px">
                                 <use href="./images/icons.svg#icon-phone-black"></use>
                             </svg>
                         </div>
                 </div>
-                <div class="modal-js-form">
-                    <label class="label-form" for="email">Почта</label>
+                <div class="js-form__modal">
+                    <label class="js-form__label" for="email">Почта</label>
                       <div class="modal-form">
-                        <input class="modal-subscrip" type="email" name="mail" id="email">
-                            <svg class="icons-modal" width="18px" height="18px">
+                        <input class="modal-form__subscrip" type="email" name="mail" id="email">
+                            <svg class="modal-form__icons" width="18px" height="18px">
                                 <use href="./images/icons.svg#icon-email-black"></use>
                             </svg>
                         </div>
                 </div>
-                <div class="modal-textarea">
-                    <label class="label-form" for="comment">Комментарий</label>
-                    <textarea  class="comment-box" name="comment" placeholder="Введите текст" id="comment" ></textarea>
+                <div class="js-form__textarea">
+                    <label class="js-form__label" for="comment">Комментарий</label>
+                    <textarea  class="js-form__comment-box" name="comment" placeholder="Введите текст" id="comment" ></textarea>
                 </div>
                 
-                   <div class="modal-checkbox">
+                   <div class="js-form__checkbox">
                         <input 
-                            class="input-checkbox visually-hidden"  
+                            class="js-form__input-checkbox visually-hidden"  
                             type="checkbox" 
                             name="policy" 
                             id="checkbox1" >
-                        <label class="label-checkbox" for="checkbox1">
+                        <label class="js-form__label-checkbox" for="checkbox1">
                             <span>
-                            <svg class="icons-check" width="13px" height="11px">
+                            <svg class="js-form__icons-check" width="13px" height="11px">
                                 <use href="./images/icons.svg#icon-send-ok"></use>
-                            </svg></span>Соглашаюсь с рассылкой и принимаю <a href="/" class="check-text">Условия договора</a></label>
+                            </svg></span>Соглашаюсь с рассылкой и принимаю <a href="/" class="js-form__check-text">Условия договора</a></label>
                     </div>    
         
-                 <button class="btn-send modal-btn" type="submit">Отправить</button>
+                 <button class="js-form__btn-send modal-btn" type="submit">Отправить</button>
             </form>
             </div>
      </div>
