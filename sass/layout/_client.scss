@@ -1,15 +1,18 @@
+.client__title {
+  color: var(--black-light-color);
+}
 .client-list {
   display: flex;
   align-items: center;
 }
-.client-item {
+.client-list__item {
   margin-right: 30px;
   &:last-child {
     margin-right: 0px;
   }
 }
 
-.client-link {
+.client-list__link {
   width: 170px;
   height: 92px;
   display: flex;

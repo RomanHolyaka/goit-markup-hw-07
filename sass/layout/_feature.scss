@@ -1,10 +1,10 @@
 .feature-list {
   display: flex;
 }
-.feature-item:not(:last-child) {
+.feature-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.feature-third-title {
+.feature-list__third-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -13,7 +13,7 @@
   color: var(--black-light-color);
 }
 
-.feature-text {
+.feature-list__text {
   width: 270px;
   height: 75px;
   font-weight: 400;
@@ -21,7 +21,7 @@
   line-height: 1.71;
   color: var(--grey-color);
 }
-.image-section {
+.feature-list__image-section {
   height: 120px;
   margin-bottom: 30px;
   display: flex;
