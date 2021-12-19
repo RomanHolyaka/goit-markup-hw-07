@@ -7,7 +7,6 @@
   background: rgba(47, 48, 58, 0.5);
   opacity: 1;
 
-  transition-property: background;
   transition-duration: 750ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &.is-hidden {
@@ -214,7 +213,8 @@
       background: var(--blue-light-color);
       border: none;
     }
-    .js-form__input-checkbox:hover + & {
+    .js-form__input-checkbox:hover + &,
+    .js-form__input-checkbox:focus + & {
       border-color: var(--blue-light-color);
     }
   }

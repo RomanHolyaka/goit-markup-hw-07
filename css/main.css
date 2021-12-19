@@ -105,7 +105,6 @@ body {
   height: 100%;
   background: rgba(47, 48, 58, 0.5);
   opacity: 1;
-  transition-property: background;
   transition-duration: 750ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -318,7 +317,8 @@ body {
   border: none;
 }
 
-.js-form__input-checkbox:hover + .js-form__label-checkbox span {
+.js-form__input-checkbox:hover + .js-form__label-checkbox span,
+.js-form__input-checkbox:focus + .js-form__label-checkbox span {
   border-color: var(--blue-light-color);
 }
 
